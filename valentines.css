@@ -1,0 +1,18 @@
+body{background-color: #ffd6df; font-family: 'Trebuchet MS'; font-weight: bold;}
+section{
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    margin: 8% 15%;
+    width: 70%;
+}
+h1{margin: 10px; padding-top: 20px;}
+button{
+    border: none;
+    border-radius: 15%;
+    margin: 25px;
+    padding: 15px;
+}
+button#nie{background-color: red; width: 4%;}
+button#tak{background-color: pink; width: 4%;}
+img{background-color: white; margin: 40px}
