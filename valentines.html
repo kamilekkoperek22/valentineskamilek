@@ -45,7 +45,10 @@
             }
             
         function snd(){
-            new Audio("blehh.mp3").play();
+            const loopAudio = new Audio("blehh.mp3");
+        loopAudio.loop = true;
+        loopAudio.play();
+            
             new Audio("v1.mp3").play();
             new Audio("v2.mp3").play();
             new Audio("v3.mp3").play();
